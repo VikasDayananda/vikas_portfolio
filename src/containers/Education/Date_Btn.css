@@ -1,0 +1,8 @@
+
+.button1 {
+    cursor: not-allowed;
+    background-color: black;
+    color: black;
+    border: 5px solid #4CAF50;
+}
+

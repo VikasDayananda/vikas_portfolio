@@ -1,0 +1,80 @@
+
+.icon-cart:before {
+    content: "";
+
+
+}
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn {
+    border: none;
+    font-family: inherit;
+    font-size: 23px;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    width:180px;
+    height:40px;
+    display: inline-block;
+    margin: 15px 30px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.btn-3 {
+    background: #fcad26;
+    color: #fff;
+}
+
+.btn-3:hover {
+    background: #f29e0d;
+}
+
+.btn-3:active {
+    background: #f58500;
+    top: 2px;
+}
+
+.btn-3:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 100%;
+    width: 50px;
+    text-align: center;
+}
+
+/* Button 3a */
+.btn-3a {
+padding-left: 50px;
+}
+
+.btn-3a:before {
+    background: rgba(0,0,0,0.05);
+}
+.flash {
+    animation-name: flash;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    from {color: darkred ;}
+    to {color: #00bfff;}
+}
