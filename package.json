@@ -2,7 +2,7 @@
   "name": "portfolio_vikas",
   "version": "0.1.0",
   "private": true,
-  "homepage": "htttp://VikasDayananda.github.io/portfolio_vikas",
+  "homepage": "http://VikasDayananda.github.io/vikas_portfolio",
   "dependencies": {
     "autoprefixer": "7.1.2",
     "babel-core": "6.25.0",

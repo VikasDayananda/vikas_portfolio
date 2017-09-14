@@ -1,7 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import '../Projects/img_button.css';
-// const sgMail = require('@sendgrid/mail');
-// sgMail.setApiKey('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');
+
 
 class Button extends Component {
 
