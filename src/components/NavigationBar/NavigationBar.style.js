@@ -2,11 +2,11 @@ import styled from 'styled-components';
 import {Link} from 'react-router';
 
 export const NavigationContainer= styled.div`
-@import url('https://fonts.googleapis.com/css?family=Acme');
+
 position: fixed;
 top:3.5em;
 left:2.5em;
-font-family: 'Acme', sans-serif;
+
 
 `;
 export const NavIcon= styled.img`
@@ -18,8 +18,10 @@ width:60%
 `;
 export const NavItem= styled(Link)`
 display: block;
+color:#B22222;
 margin-top:20px;
 font-size:1.3em;
+font-weight:700;
 cursor:pointer;
 position:relative;
 text-decoration: none;

@@ -2,8 +2,8 @@ import styled, {css} from 'styled-components';
 
 export const Body=styled.div`
 
-   padding-left:15px;
-   padding-right:15px;
+   padding-left:50px;
+   padding-right:50px;
    padding-top:15px;
 `;
 export const P=styled.p`

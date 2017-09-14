@@ -8,7 +8,7 @@ position:fixed;
 background-image:url(${require('../../assets/mac_bg.jpg')});
 background-size:100% 100%;
 background-position:center;
-opacity:0.8;
+opacity:0.75;
 background-repeat:no-repeat;
 z-index:-99;
 `;

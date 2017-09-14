@@ -11,17 +11,26 @@ export const Body=styled.div`
 `;
 export const P=styled.p`
 
+ padding-left:50px;
+ padding-right:50px;
     text-align: justify;
     text-justify: inter-word;
 `;
-export const Cmp_Name=styled.a`
-       padding-left:50px;
+export const Job=styled.a`
+      
     text-decoration: none;
     font-size:25px;
    
 `;
+export const Cmp_Name=styled.p`
+      
+       margin-top:-3px;
+    
+`;
 export const Cmp_Details=styled.p`
-       padding-left:50px;
+      
+        color:#383535;
+        margin-top:-2px;
     
 `;
 

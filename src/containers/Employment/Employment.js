@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Container} from 'theme/grid';
-import {Header,P,Cmp_Details,Cmp_Name,Body,Emp_icon} from './Employment.style';
+import {Header,P,Cmp_Details,Cmp_Name,Body,Emp_icon,Job} from './Employment.style';
 import {Date} from '../Education/Education.style'
 import{Next_icon,Next_page,Prev_icon,Prev_page} from '../Home/Home.style';
 var divStyle = {
@@ -24,14 +24,15 @@ class Employment extends React.Component{
                     <P>
 
 
-                        <Cmp_Name target="_blank" href="https://www.uncc.edu">
+                        <Job target="_blank" href="https://www.uncc.edu">
                             Graduate Teaching Assistant.
-                        </Cmp_Name> <Date className="button1">Jan 2017 - Present</Date>
+                        </Job> <Date className="button1">Jan 2017 - Present</Date>
 
-                        <br/>
+
+                        <Cmp_Name>
+                            The University of North Carolina at Charlotte
+                        </Cmp_Name>
                         <Cmp_Details>
-                            The University of North Carolina at Charlotte<br/>
-
                             Branch: Computer Science<br/>
                             Course: Game Design and Development<br/>
                             Professor: Dr. Julio Bahamon<br/>
@@ -43,17 +44,19 @@ class Employment extends React.Component{
                     <P>
 
 
-                        <Cmp_Name target="_blank" href="http://www.vtu.ac.in">
+                        <Job href="">
                            Web Application Developer- INTERN
-                        </Cmp_Name><Date className="button1">Aug 2015 - Jan 2016</Date>
+                        </Job><Date className="button1">Aug 2015 - Jan 2016</Date>
 
-                        <br/>
+
+                        <Cmp_Name>
+                            BLR24.COM, India
+                        </Cmp_Name>
                         <Cmp_Details>
-                            BLR24.COM, India<br/>
                             Technology: C# With ASP.NET MVC Framework, MySQL, Razor Html.<br/>
                             Role: Back-end Developer and Database developer<br/>
                             This is was 6 month Internship in an e-commerce startup company called BLR24. With Team of 2, we developed working website for the company.
-                       </Cmp_Details>  </P>
+                        </Cmp_Details>  </P>
                     <br/>
                     </Body>
                 </div>

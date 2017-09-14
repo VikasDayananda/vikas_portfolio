@@ -20,7 +20,8 @@ export const Header=styled.h1`
 export const Body=styled.div`
 
    padding-left:15px;
-   padding-right:15px;
+   padding-right:50px;
+   
   
 `;
 export const Uni_Name=styled.a`

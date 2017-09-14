@@ -25,7 +25,7 @@ left:10vw;
 width:80vw;
 top:10vh;
 height:100%;
-background-image:url(${require('assets/bg4.jpg')});
+
 background-color:white;
 background-size:100%;
 background-position:center;

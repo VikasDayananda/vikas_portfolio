@@ -4,6 +4,7 @@ import {Container} from 'theme/grid';
 import {Header,P,Uni_Name,Crown,Uni_Details,Dsi,Body,Date} from './Education.style';
 import{Next_icon,Next_page,Prev_icon,Prev_page} from '../Home/Home.style';
 import './Date_Btn.css';
+import '../Projects/img_button.css';
 import '../About_me/paralax.css';
 var divStyle = {
     paddingTop:'5px'
@@ -12,18 +13,18 @@ var degree_font={
     fontFamily:"Times New Roman",
     fontSize:'22px',
     fontWeight: 'bold',
-    lineHeight:'4px'
+
 }
 var major_font={
     fontFamily:"Arial",
     fontSize:'18px',
     fontWeight: 'bold',
     color:'#635b5b',
-    lineHeight:'2px'
+
 }
 var details_font={
     fontSize:'18px',
-    color:'gray'
+    color:'#383535'
 
 }
 
@@ -84,16 +85,16 @@ class Education extends React.Component{
                                       The University of North Carolina at Charlotte (UNCC). </Uni_Name> <Date className="button1">Aug 2016 - Dec 2017</Date>
 
                                     <Uni_Details >
-                                        <p style={degree_font}> Master of Science (MS)</p>
+                                        <span style={degree_font}> Master of Science (MS)</span><br/>
 
 
-                                    <p style={major_font}>Computer Science</p>
-                                            <p style={details_font}>
+                                    <span style={major_font}>Computer Science</span> <br/>
+                                            <span style={details_font}>
                         Specialization: Data Science and Analytics.<br/>
                         Award: Graduate Teaching Assistant<br/>
                                                 GPA: 3.75<br/>
-                                                <span onClick={this.onClick}> CourseWork(<b> Click to View </b>) >>
-                                             { this.state.showResults ? <Results /> : null }</span></p>
+                                                <span  onClick={this.onClick}> CourseWork(<b className="flash"> Click to View </b>) >>
+                                             { this.state.showResults ? <Results /> : null }</span></span>
                                             <br/></Uni_Details>
 
 
@@ -108,11 +109,11 @@ class Education extends React.Component{
 
                                     <br/>
                                     <Uni_Details>
-                                        <p style={degree_font}>   Bachelor of Engineering (BE )</p>
-                                        <p style={major_font}>   Computer Science and Engineering.</p>
-                                        <p style={details_font}>  GPA: 3.70<br/>
+                                        <span style={degree_font}>   Bachelor of Engineering (BE )</span><br/>
+                                        <span style={major_font}>   Computer Science and Engineering.</span><br/>
+                                        <span style={details_font}>  GPA: 3.70<br/>
                         I took various courses covering broad topics in computer science and software development, particularly in data science.<br/>
-                                        </p>  <br/><br/></Uni_Details>  </P>
+                                        </span>  <br/><br/></Uni_Details>  </P>
 
                     </Body>
                     </div>

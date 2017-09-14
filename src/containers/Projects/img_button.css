@@ -1,7 +1,15 @@
 
 .icon-cart:before {
-    content: "";
+    content: "📷";
 
+
+}
+.icon-mail:before {
+    content: "✉";
+
+}
+.icon-download:before {
+    content: "⇩";
 
 }
 .btn:after {
@@ -14,13 +22,34 @@
 }
 
 .btn {
+
     border: none;
     font-family: inherit;
-    font-size: 23px;
+    font-size: 22px;
     color: inherit;
     background: none;
     cursor: pointer;
-    width:180px;
+    width:160px;
+    height:40px;
+    display: inline-block;
+    margin: 15px 30px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.btn-d {
+
+    border: none;
+    font-family: inherit;
+    font-size: 22px;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    width:230px;
     height:40px;
     display: inline-block;
     margin: 15px 30px;
@@ -51,18 +80,53 @@
     height: 100%;
     left: 0;
     top: 0;
-    line-height: 3;
+    line-height: 2;
     font-size: 100%;
-    width: 50px;
+    width: 40px;
     text-align: center;
 }
 
 /* Button 3a */
 .btn-3a {
-padding-left: 50px;
+    padding: 9px 55px 9px 70px;
 }
 
 .btn-3a:before {
+    background: rgba(0,0,0,0.05);
+
+}
+.btn-2 {
+
+    background: royalblue;
+    color: #fff;
+}
+
+.btn-2:hover {
+    background:lightblue;
+}
+
+.btn-2:active {
+    background:royalblue;
+    top: 2px;
+}
+
+.btn-2:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 2;
+    font-size: 100%;
+    width: 40px;
+    text-align: center;
+}
+
+/* Button 3a */
+.btn-2a {
+    padding-left: 50px;
+}
+
+.btn-2a:before {
     background: rgba(0,0,0,0.05);
 }
 .flash {

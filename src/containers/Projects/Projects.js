@@ -124,6 +124,7 @@ class Projects extends React.Component{
                         </div>
                     </Proj_Details>
                 </P>
+                <hr/>
                 <P>
                     <Proj_Name  target="_blank" href="https://github.com/VikasDayananda/Grad-School-Predictor-R-language-">Graduate School Predictor Application.</Proj_Name>
                     <Proj_Details>
@@ -155,6 +156,7 @@ class Projects extends React.Component{
                         </div>   </Proj_Details>
 
                 </P>
+                <hr/>
                 <P>
                     <Proj_Name  target="_blank" href="https://github.com/VikasDayananda/Face-Detection-Using-PHP-and-Kairos-Api"> Face Detection System Web Application.</Proj_Name>
                     <Proj_Details>
@@ -186,8 +188,9 @@ class Projects extends React.Component{
                         </div> </Proj_Details>
 
                 </P>
+                <hr/>
                 <P>
-                    <Proj_Name> Classification of ‘Saatchi Art’ Paintings.</Proj_Name>
+                    <Proj_Name target="_blank" href="https://github.com/VikasDayananda/Classification-of-Saatchi-Art-Paintings-Based-on-Price--Weka--R--Python"> Classification of ‘Saatchi Art’ Paintings.</Proj_Name>
                     <Proj_Details>
                     Technology: Python, R Language, Weka tool.<br/>
                     •	Developed a code to classify paintings based on price with high precision.      <br/>
@@ -195,7 +198,7 @@ class Projects extends React.Component{
                     •	Python was used to scrap data, R language to pre-process and Weka tool was used to classify.<br/>
                     </Proj_Details>
 
-                </P>
+                </P> <hr/>
                 <P>
                     <Proj_Name  target="_blank" href="https://github.com/VikasDayananda/SendSpace--Air-Luggage-Sharing-System">Flight Luggage Sharing System Application.</Proj_Name>
                     <br/>
@@ -204,6 +207,7 @@ class Projects extends React.Component{
                     •	Web based application to facilitate baggage sharing between flight passengers.   </Proj_Details>
 
                 </P>
+                <hr/>
                 <P>
                     <Proj_Name  target="_blank" href="https://github.com/VikasDayananda/Sentiment-Analysis-on-Tweets">Sentimental Classification of tweets.</Proj_Name>
                     <Proj_Details>
@@ -234,18 +238,21 @@ class Projects extends React.Component{
                         }
                 </div>  </Proj_Details>
                 </P>
+                <hr/>
                 <P>
-                    <Proj_Name target="_blank" href="https://sites.google.com/view/clandestinegame"> CLANDESTINE GAME.</Proj_Name>
+                    <Proj_Name target="_blank" href="https://sites.google.com/view/clandestinegame"> CLANDESTINE GAME.  <span  className="flash" >( Click for game website )</span></Proj_Name>
                     <Proj_Details>
                     Technology: RPG MAKER MV and JavaScript<br/>
                     •	A 2.5D RPG game made in RPG MAKER MV as the term project in the game design and development class.
                     This game was awarded as the best project in the class.
                     <br/>
-                        <Player style={player} url="https://www.youtube.com/watch?v=8uVFRKpGFgw" controls /></Proj_Details> <br/>
+                        <Player style={player} url="https://www.youtube.com/watch?v=8uVFRKpGFgw" controls />
+
+                        <a target="_blank" href="https://drive.google.com/file/d/0B31c1R7ZNgovMUVLbW82WndWV1k/view">  <button className="btn-d btn-2 btn-2a icon-download" >Download (MAC) </button></a>
+                        <a target="_blank" href="https://drive.google.com/file/d/0B31c1R7ZNgovSHhGV05GYXNyT0k/view">     <button className="btn-d btn-2 btn-2a icon-download" >Download (PC) </button></a>
 
 
-
-                </P>
+                    </Proj_Details> </P> <hr/>
                 <P>
                     <Proj_Name  target="_blank" href="https://github.com/VikasDayananda/Cups-and-Ball-OpenGL-Game-"> 3 CUPS & A BALL.</Proj_Name>
                     <Proj_Details>
@@ -276,7 +283,7 @@ class Projects extends React.Component{
                             }
                         </div></Proj_Details>
 
-                </P>
+                </P> <hr/>
                 </Body>
                 </div>
                 <Prev_page>Employment</Prev_page>

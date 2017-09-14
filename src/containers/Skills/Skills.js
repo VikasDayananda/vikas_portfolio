@@ -5,6 +5,9 @@ import{Next_icon,Next_page,Prev_icon,Prev_page} from '../Home/Home.style';
 var divStyle = {
     paddingTop:'5px'
 };
+var list_style={
+    marginTop:'-25px'
+}
 class Skills extends React.Component{
     render()
     {
@@ -22,21 +25,20 @@ class Skills extends React.Component{
                     <Header>
                         Skills <Skill_icon src={require('../../assets/skills_icon.png')} alt="Uncc Logo" />
                     </Header>
-                    <Image src={require('../../assets/skills.jpg')} alt="hero-image" />
+                    <Image src={require('../../assets/skills.jpg')} alt="skills-image" />
                 <br/>
                     <P>These are the skills i have acquired over years by education, experience, and my projects.</P>
-                    <Skill_Name>PROGRAMMING LANGUAGES</Skill_Name>
-                    <Skil_Details>
-                        <ol>
+                    <Skill_Name>PROGRAMMING LANGUAGES </Skill_Name>
+                    <Skil_Details> <ol style={list_style}>
                             <li>C</li>
                             <li>C#</li>
                             <li>JAVA</li>
                             <li>R</li>
-                        </ol>
-                    </Skil_Details>
+                    </ol></Skil_Details>
+
                     <Skill_Name>Web Technologies</Skill_Name>
                     <Skil_Details>
-                        <ol>
+                        <ol  style={list_style}>
                             <li>React</li>
                             <li>Node</li>
                             <li>HTML5</li>
@@ -47,7 +49,7 @@ class Skills extends React.Component{
                     </Skil_Details>
                     <Skill_Name>Scripting Languages</Skill_Name>
                     <Skil_Details>
-                        <ol>
+                        <ol  style={list_style}>
                             <li>JavaScript</li>
                             <li>PHP</li>
 
@@ -55,7 +57,7 @@ class Skills extends React.Component{
                     </Skil_Details>
                     <Skill_Name>Database Technologies</Skill_Name>
                     <Skil_Details>
-                        <ol>
+                        <ol  style={list_style}>
                             <li>MySql</li>
                             <li>MongoDB</li>
                             <li>SQL SERVER</li>
@@ -63,7 +65,7 @@ class Skills extends React.Component{
                     </Skil_Details>
                     <Skill_Name>Cloud Technologies</Skill_Name>
                     <Skil_Details>
-                        <ol>
+                        <ol  style={list_style}>
                             <li>Hadoop</li>
                             <li>Spark</li>
                             <li>HIVE</li>
@@ -71,7 +73,7 @@ class Skills extends React.Component{
                     </Skil_Details>
                     <Skill_Name>Frameworks</Skill_Name>
                     <Skil_Details>
-                        <ol>
+                        <ol  style={list_style}>
                             <li>Spring</li>
                             <li>MVC</li>
                             <li>ASP.NET</li>
@@ -80,7 +82,7 @@ class Skills extends React.Component{
 
                 <Skill_Name>Software Methodologies</Skill_Name>
                 <Skil_Details>
-                    <ol>
+                    <ol  style={list_style}>
                         <li>Agile</li>
                         <li>Waterfall</li>
 
@@ -88,13 +90,12 @@ class Skills extends React.Component{
                 </Skil_Details>
                 <Skill_Name>Tools and IDE's</Skill_Name>
                 <Skil_Details>
-                    <ol>
+                    <ol  style={list_style}>
                         <li>MS Office</li>
                         <li>Eclipse</li>
                         <li>Visual Studio</li>
                         <li>Visual Basic</li>
                         <li>Tableau</li>
-                        <li>Weka</li>
                         <li>Adobe Photoshop</li>
                         <li>JetBrains</li>
 
@@ -102,7 +103,7 @@ class Skills extends React.Component{
                 </Skil_Details>
                     <Skill_Name>Game Development and Graphics Technologies</Skill_Name>
                     <Skil_Details>
-                        <ol>
+                        <ol  style={list_style}>
                             <li>OpenGL</li>
                             <li>WebGL</li>
                             <li>GameMaker</li>
@@ -122,9 +123,7 @@ class Skills extends React.Component{
                 </Prev_icon>
                 <Next_page>Contact</Next_page>
                 <Next_icon to="/contact">
-
                     <p>⟶</p>
-
                 </Next_icon>
             </Container>
         );
